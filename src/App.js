@@ -17,7 +17,7 @@ const App = () => {
           <li onClick={() => handleSectionClick('skills')}>Technical Skills</li>
           <li onClick={() => handleSectionClick('experience')}>Experience</li>
           <li onClick={() => handleSectionClick('education')}>Education</li>
-          <li onClick={() => handleSectionClick('certifications')}>Certifications</li>
+          <li onClick={() => handleSectionClick('certifications')}>Certifications 3</li>
           <li onClick={() => handleSectionClick('projects')}>Projects</li>
           <li onClick={() => handleSectionClick('contact')}>Contact</li>
         </ul>
