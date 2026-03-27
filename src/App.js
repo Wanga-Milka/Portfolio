@@ -39,9 +39,13 @@ const App = () => {
         <h2>About Me</h2>
      
         <p>
-          I'm a passionate Software Engineer and Solutions Architect with expertise in designing scalable applications,
-          workflow automation, and AI-driven solutions. I enjoy solving complex problems, building modern web systems, 
-          and improving business processes through technology.
+         I am a passionate and results-driven software professional with hands-on experience across software development, solution architecture, and technology consulting. My journey began with an industrial attachment at SafetyPlus Consulting Limited (Nairobi), where I gained practical exposure to IT solutions.
+
+I strengthened my technical foundation through a three-week virtual software development training at the Women Techster Bootcamp, which equipped me with modern development practices. I later joined TangazoLetu Ltd  as a graduate trainee and progressed to a Software Engineer at TangazoLetu Limited, where I contributed to building scalable and reliable software solutions.
+
+Currently, I serve as a Solutions Architect at NCBA Bank, where I design and implement enterprise-grade solutions that drive operational efficiency and business value. In addition to architecture, I actively work on AI automation initiatives, leveraging tools such as n8n, intelligent workflows, and API integrations to streamline processes, enhance customer experience, and reduce manual workloads across departments.
+
+I thrive at the intersection of technology and problem-solving, with a strong passion for innovation, automation, and building systems that scale. I am always open to connecting with like-minded professionals and exploring opportunities to make meaningful impact through technology.
         </p>
       </section>
 
@@ -96,7 +100,7 @@ const App = () => {
               designing and deploying websites.</li>
               <li>Network Administration: Assisted with network administration duties, ensuring smooth
               network operations, security, and connectivity.</li>
-              <li></li>
+              
                           
             </ul>
           </div>    
