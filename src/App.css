@@ -1,0 +1,388 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+/* Global Styles */
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: orange; /* Change background to orange */
+  color: #333;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.btn {
+  background-color:orange;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Section Styles */
+.section {
+  padding: 50px 0;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.skills-grid, .projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .skills-grid, .projects-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .project-card {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .skills-grid, .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+}
+
+
+
+
+/* Profile Image Styling */
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid white;
+  object-fit: cover; /* Ensures the image fits well within the circle */
+  margin-left: 20px;  /* Add left margin to image */
+}
+
+/* Add left margin for h1 */
+h1 {
+  margin-left: 0%;  /* Adjust the value as needed */
+  color: white;
+}
+
+/* Container and other styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;  /* Align to the left */
+}
+
+/* Profile Image Styling */
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid white;
+  animation: moveImage 4s infinite alternate ease-in-out; /* Apply animation */
+  
+}
+
+/* Keyframe Animation for the Image */
+@keyframes moveImage {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  50% {
+    transform: translateX(20px) rotate(360deg);
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+  }
+}
+/* Profile Image Styling */
+.profile-image {
+  width: 400px;  /* Set width */
+  height: 300px; /* Set height */
+  border-radius: 50%;  /* Circular shape */
+  border: 4px solid white;  /* Optional border */
+  object-fit: cover;  /* Ensure image fits well within the circle */
+}
+/* Navbar Styling */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 20px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  
+}
+
+.navbar li:hover {
+  text-decoration: underline;
+}
+
+/* Section Visibility */
+.section {
+  display: none;
+  padding: 50px 0;
+}
+
+.section.active {
+  display: block;
+}
+
+/* Additional Section Styling */
+#about, #skills, #experience, #education, #certifications, #projects, #contact {
+  background-color: #fff;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.section p {
+  font-size: 1rem;
+}
+
+.project-card, .skills-grid div {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* Profile Container */
+.profile-container {
+  display: flex;
+  align-items: center;  /* Vertically center items */
+  justify-content: flex-start; /* Align items to the start of the container */
+  gap: 30px;  /* Adds space between the image and text (adjust value as needed) */
+}
+
+/* Profile Container */
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* Profile Image */
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Profile Text (Moving Away from Image) */
+.profile-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 5%;  /* This moves the text to the right away from the image */
+  transition: margin-left 0.3s ease;  /* Smooth transition when margin changes */
+}
+
+/* Profile Text Animation on Hover (Optional) */
+.profile-container:hover .profile-text {
+  margin-left: 20px; /* Moves the text even further when hovered */
+}
+
+/* Subtitle Styling */
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Button Styling */
+.btn {
+  margin-top: 10px;
+  width: 80px;
+  height: 30px;
+  margin-left: 50%;
+}
+/* Footer Styling */
+footer {
+  background-color: orange;  /* Dark background for the footer */
+  color: white;  /* Set the text color to white */
+  text-align: center;  /* Center the text */
+  padding: 20px 0;  /* Add some padding around the text */
+}
+
+footer p {
+  margin: 0;  /* Remove margin for the paragraph */
+}
+/* Certifications Section */
+/* Certifications Grid */
+.certifications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));  /* Creates responsive columns */
+  gap: 20px;  /* Adds space between cards */
+  margin-top: 20px;
+  justify-items: stretch;  /* Make items stretch to fill available horizontal space */
+  align-items: stretch;    /* Make items stretch to fill available vertical space */
+}
+
+/* Certification Card Styling */
+.certification-card {
+  background-color: #f8f9fa;  /* Light background for each card */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;             /* Allow flex to center content inside the card */
+  flex-direction: column;    /* Stack the content vertically */
+  justify-content: space-between;  /* Spread content vertically inside the card */
+  align-items: stretch;      /* Stretch content horizontally to occupy full width */
+  height: 100%;              /* Make the card height 100% of the available space */
+  text-align: center;        /* Ensure text is centered */
+}
+
+.certification-card h3 {
+  font-size: 1.2rem;
+  margin: 0;  /* Remove margin */
+}
+/* Experience Grid Layout */
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Creates responsive columns */
+  gap: 20px;  /* Adds space between the cards */
+  margin-top: 20px;
+}
+
+/* Experience Card Styling */
+.experience-card {
+  background-color: #f8f9fa;  /* Light background for each card */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;             /* Allow flex to center content inside the card */
+  flex-direction: column;    /* Stack the content vertically */
+  justify-content: flex-start;  /* Align content to the top */
+  text-align: left;        /* Left-align the text */
+}
+
+/* Job Title and Span Styling */
+.experience-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;  /* Space below the title */
+}
+
+.experience-card span {
+  font-size: 1rem;
+  color: #888;  /* Lighter color for the date */
+}
+
+/* List Styling */
+.experience-card ul {
+  padding-left: 20px;  /* Add some space for the list items */
+}
+
+.experience-card li {
+  font-size: 1rem;
+  margin-bottom: 5px;  /* Space between list items */
+}
