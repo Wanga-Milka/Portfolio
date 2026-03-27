@@ -65,16 +65,16 @@ I thrive at the intersection of technology and problem-solving, with a strong pa
         <h2>Experience</h2>
         <div className="experience-grid">
           <div className="experience-card">
-            <h3>Solutions Architect-NCBA Bank <span>(Aug 2025 – Present)</span></h3>
-            <ul>
+            <h4>Solutions Architect <span> <h5>NCBA Bank </h5></span> </h4>         
+            <ul className="lead-list">
               <li>Designed technical requirement documents and project architecture.</li>
               <li>Integrated n8n with WhatsApp for automated client workflows.</li>
               <li>Managed Infobip chatbot solutions for multi-channel communication.</li>
             </ul>
           </div>
           <div className="experience-card">
-            <h3>Software Engineer – TangazoLetu Ltd <span>(Feb 2024 – Present)</span></h3>
-            <ul>
+            <h4>Software Engineer  <span><h5>TangazoLetu Ltd </h5></span></h4>            
+           <ul className="lead-list">
               <li>Developed secure, scalable backend systems with Java and PHP.</li>
               <li>Integrated RESTful and GraphQL APIs for front-end clients.</li>
               <li>Implemented CI/CD and performance optimization for production systems.</li>
@@ -82,16 +82,16 @@ I thrive at the intersection of technology and problem-solving, with a strong pa
             </ul>
           </div>     
             <div className="experience-card">
-            <h3>Industrial Attachment – SafetyPlus Consulting Ltd <span>(Sep 2022 – Dec 2022)</span></h3>
-            <ul>
+            <h4>Industrial Attachment <span><h5>SafetyPlus Consulting Ltd </h5></span></h4>            
+            <ul className="lead-list">
               <li>Participated in IT support tasks, including hardware/software troubleshooting and system
               setup.</li>
              
             </ul>
           </div>     
            <div className="experience-card">
-            <h3>Industrial Training – Kibabii University <span>(Oct 2021– Dec 2021)</span></h3>
-            <ul>
+            <h4>Industrial Training  <span> <h5>Kibabii University </h5></span></h4>            
+            <ul className="lead-list">
               <li>Software Development: Developed applications using PHP and Android Java, focusing on
               app creation, testing, and deployment.</li>
               <li>Database Management: Managed MySQL databases, utilizing Navicat for efficient
@@ -109,7 +109,7 @@ I thrive at the intersection of technology and problem-solving, with a strong pa
 
       <section id="education" className={`section ${activeSection === 'education' ? 'active' : ''}`}>
         <h2>Education</h2>
-        <ul>
+       <ul className="lead-list">
           <li><strong>BSc. Computer Science</strong></li>
         </ul>
       </section>

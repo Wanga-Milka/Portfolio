@@ -386,3 +386,14 @@ footer p {
   font-size: 1rem;
   margin-bottom: 5px;  /* Space between list items */
 }
+/* Lead Style for Lists */
+.lead-list {
+  font-size: 1.25rem;  /* Slightly larger text */
+  line-height: 1.6;    /* Increase line height for better readability */
+  font-weight: bold;   /* Make the text bold */
+  color:grey;         /* Use a dark color for better contrast */
+}
+
+.lead-list li {
+  margin-bottom: 10px; /* Add space between list items */
+}
